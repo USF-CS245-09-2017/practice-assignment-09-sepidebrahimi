@@ -3,7 +3,7 @@ public class BinaryHeap {
     private int size;
 
     public BinaryHeap() {
-        array = new int[10];
+        array = new int[10];//starting with array of size 10 as mentioned in the assignment
         size = 0;
     }
 
