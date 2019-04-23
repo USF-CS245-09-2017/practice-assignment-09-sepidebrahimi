@@ -1,3 +1,5 @@
+//Sepid Ebrahimi, CS 245, Section 1
+
 public class BinaryHeap {
     private int[] array;
     private int size;
@@ -20,11 +22,11 @@ public class BinaryHeap {
         return (data * 2) + 2;
     }
 
-    private void swap(int pos1, int pos2) {
-        int tmp;
-        tmp = array[pos1];
+    private void swap(int pos1, int pos2) { //swap position 1 & 2
+        int temp;
+        temp = array[pos1];
         array[pos1] = array[pos2];
-        array[pos2] = tmp;
+        array[pos2] = temp;
     }
 
     private void grow_array() {
